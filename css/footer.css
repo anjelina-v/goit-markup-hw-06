@@ -1,21 +1,23 @@
 .footer {
+  padding: 96px 0;
   background-color: #2e2f42;
-  padding: 100px 0;
 }
+
+.footer-block-1 {
+  width: 100%;
+}
+
 .footer-logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.33333;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
   display: block;
   margin-bottom: 16px;
+  text-align: center;
 }
+
 .footer-accent {
   color: #4d5ae5;
 }
+
 .footer-text {
   color: #f4f4fd;
   max-width: 264px;
@@ -23,10 +25,9 @@
 
 .footer-content {
   display: flex;
-}
-
-.footer-block-1 {
-  margin-right: 120px;
+  flex-wrap: wrap;
+  gap: 72px;
+  justify-content: center;
 }
 
 .footer .socials-list {
@@ -39,38 +40,37 @@
   background-color: #31d0aa;
 }
 
-.footer-block-3 {
-  margin-left: auto;
-}
-
 .footer-appointment {
   color: #fff;
   font-weight: 500;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .footer-form {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
 }
 
 .footer-input {
   border: 1px solid #fff;
   border-radius: 4px;
   padding: 8px 16px;
-  width: 264px;
+  width: 100%;
   height: 40px;
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #fff;
 }
 
 .footer-input::placeholder {
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #fff;
 }
@@ -99,4 +99,51 @@
 .subscribe-btn:hover,
 .subscribe-btn:focus {
   background-color: #31d0aa;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-block-1 {
+    width: inherit;
+  }
+
+  .footer-logo {
+    text-align: left;
+  }
+
+  .footer-content {
+    padding: 0 108px;
+    justify-content: flex-start;
+    gap: 72px 24px;
+  }
+
+  .footer-appointment {
+    text-align: left;
+  }
+
+  .footer-form {
+    gap: 24px;
+  }
+
+  .footer-input {
+    width: 264px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .footer {
+    padding: 100px 0;
+  }
+
+  .footer-content {
+    padding: 0 15px;
+    max-width: 1158px;
+  }
+
+  .footer-block-1 {
+    margin-right: 120px;
+  }
+
+  .footer-block-3 {
+    margin-left: auto;
+  }
 }

@@ -26,9 +26,14 @@
     <!-- Header section -->
     <header class="header" id="header">
       <div class="container">
-        <a class="logo" href="./index.html"
+        <a class="logo header-logo" href="./index.html"
           ><span class="accent">Web</span>Studio</a
         >
+        <button class="menu-btn" type="button">
+          <svg class="menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#burger-menu" />
+          </svg>
+        </button>
 
         <nav class="main-nav">
           <ul class="main-nav-list">
@@ -138,6 +143,7 @@
               <img
                 class="team-img"
                 src="./images/team-1.jpg"
+                srcset="./images/team-1.jpg 1x, ./images/team-1@2x.jpg 2x"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -182,6 +188,7 @@
               <img
                 class="team-img"
                 src="./images/team-2.jpg"
+                srcset="./images/team-2.jpg 1x, ./images/team-2@2x.jpg 2x"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -226,6 +233,7 @@
               <img
                 class="team-img"
                 src="./images/team-3.jpg"
+                srcset="./images/team-3.jpg 1x, ./images/team-3@2x.jpg 2x"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -270,6 +278,7 @@
               <img
                 class="team-img"
                 src="./images/team-4.jpg"
+                srcset="./images/team-4.jpg 1x, ./images/team-4@2x.jpg 2x"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -325,6 +334,10 @@
                 <img
                   class="portfolio-image"
                   src="./images/portfolio-1.jpg"
+                  srcset="
+                    ./images/portfolio-1.jpg    1x,
+                    ./images/portfolio-1@2x.jpg 2x
+                  "
                   alt="Mobile banking application UI design screens"
                   width="360"
                   height="300"
@@ -347,6 +360,10 @@
                 <img
                   class="portfolio-image"
                   src="./images/portfolio-2.jpg"
+                  srcset="
+                    ./images/portfolio-2.jpg    1x,
+                    ./images/portfolio-2@2x.jpg 2x
+                  "
                   alt="Scanning a QR code on a payment terminal with a smartphone"
                   width="360"
                   height="300"
@@ -369,6 +386,10 @@
                 <img
                   class="portfolio-image"
                   src="./images/portfolio-3.jpg"
+                  srcset="
+                    ./images/portfolio-3.jpg    1x,
+                    ./images/portfolio-3@2x.jpg 2x
+                  "
                   alt="Laptop and smartphone showing a digital presentation"
                   width="360"
                   height="300"
@@ -391,6 +412,10 @@
                 <img
                   class="portfolio-image"
                   src="./images/portfolio-4.jpg"
+                  srcset="
+                    ./images/portfolio-4.jpg    1x,
+                    ./images/portfolio-4@2x.jpg 2x
+                  "
                   alt="Driver holding a steering wheel with a mounted phone"
                   width="360"
                   height="300"
@@ -413,6 +438,10 @@
                 <img
                   class="portfolio-image"
                   src="./images/portfolio-5.jpg"
+                  srcset="
+                    ./images/portfolio-5.jpg    1x,
+                    ./images/portfolio-5@2x.jpg 2x
+                  "
                   alt="Smartphone showing futuristic sci-fi city wallpapers"
                   width="360"
                   height="300"
@@ -435,6 +464,10 @@
                 <img
                   class="portfolio-image"
                   src="./images/portfolio-6.jpg"
+                  srcset="
+                    ./images/portfolio-6.jpg    1x,
+                    ./images/portfolio-6@2x.jpg 2x
+                  "
                   alt="Smiling woman with a smartphone and earphones outdoors"
                   width="360"
                   height="300"
@@ -461,7 +494,7 @@
     <footer class="footer section" id="footer">
       <div class="container footer-content">
         <div class="footer-block-1">
-          <a class="footer-logo" href="./index.html"
+          <a class="logo footer-logo" href="./index.html"
             ><span class="footer-accent">Web</span>Studio</a
           >
           <p class="footer-text">
@@ -589,6 +622,61 @@
           </div>
           <button class="modal-btn" type="submit">Send</button>
         </form>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <div class="container mobile-container">
+        <button class="close-btn" type="button">
+          <svg class="close-icon" width="8" height="8">
+            <use href="./images/icons.svg#close" />
+          </svg>
+        </button>
+
+        <nav class="mobile-nav">
+          <a class="nav-accent" href="#features">Features</a>
+          <a href="#team">Team</a>
+          <a href="#portfolio">Portfolio</a>
+        </nav>
+
+        <address class="mobile-contacts">
+          <a class="contacts-accent" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </address>
+
+        <ul class="socials-list">
+          <li class="socials-item">
+            <a href="" class="socials-link">
+              <svg class="socials-icon" width="24" height="24">
+                <use href="./images/icons.svg#instagram" />
+              </svg>
+            </a>
+          </li>
+          <li class="socials-item">
+            <a href="" class="socials-link">
+              <svg class="socials-icon" width="24" height="24">
+                <use href="./images/icons.svg#twitter" />
+              </svg>
+            </a>
+          </li>
+          <li class="socials-item">
+            <a href="" class="socials-link">
+              <svg class="socials-icon" width="24" height="24">
+                <use href="./images/icons.svg#facebook" />
+              </svg>
+            </a>
+          </li>
+          <li class="socials-item">
+            <a href="" class="socials-link">
+              <svg class="socials-icon" width="24" height="24">
+                <use href="./images/icons.svg#linkedin" />
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
