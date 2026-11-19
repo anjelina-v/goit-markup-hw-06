@@ -25,6 +25,7 @@
 .footer-text {
   color: #f4f4fd;
   max-width: 264px;
+  margin: 0 auto;
 }
 
 .footer-content {
@@ -131,6 +132,10 @@
   .footer-form {
     gap: 24px;
     justify-content: flex-start;
+  }
+
+  .footer-text {
+    margin: 0;
   }
 
   .footer-input {
