@@ -137,6 +137,7 @@
   .footer-content {
     padding: 0 15px;
     max-width: 1158px;
+    gap: 0;
   }
 
   .footer-block-1 {
