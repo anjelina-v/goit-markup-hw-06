@@ -33,6 +33,7 @@
 .footer .socials-list {
   display: flex;
   gap: 16px;
+  margin: 0 auto;
 }
 
 .footer .socials-link:hover,
@@ -135,7 +136,7 @@
   }
 
   .footer-content {
-    padding: 0 15px;
+    padding: 0;
     max-width: 1158px;
     gap: 0;
   }

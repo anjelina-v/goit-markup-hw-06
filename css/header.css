@@ -111,6 +111,7 @@
   }
 
   .contacts-list {
+    flex-direction: row;
     gap: 40px;
   }
 
