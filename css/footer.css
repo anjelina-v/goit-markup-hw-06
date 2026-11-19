@@ -163,5 +163,6 @@
 
   .footer-block-3 {
     margin-left: auto;
+    max-width: 453px;
   }
 }
