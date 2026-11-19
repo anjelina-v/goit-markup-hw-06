@@ -7,6 +7,10 @@
   width: 100%;
 }
 
+.footer-block-3 {
+  width: 100%;
+}
+
 .footer-logo {
   color: #f4f4fd;
   display: block;
@@ -112,9 +116,12 @@
   }
 
   .footer-content {
-    padding: 0 108px;
     justify-content: flex-start;
     gap: 72px 24px;
+  }
+
+  .container {
+    padding: 0 108px;
   }
 
   .footer-appointment {
@@ -128,6 +135,10 @@
   .footer-input {
     width: 264px;
   }
+
+  .footer .socials-list {
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -139,6 +150,10 @@
     padding: 0;
     max-width: 1158px;
     gap: 0;
+  }
+
+  .container {
+    padding: 0 15px;
   }
 
   .footer-block-1 {
